@@ -38,6 +38,8 @@ else
   RCLI="$RCLI -a $pwd"
 fi
 
+RCLI="$RCLI -h $host -p $port"
+
 count=0
 cursor=1
 
